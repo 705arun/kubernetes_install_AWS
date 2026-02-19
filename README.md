@@ -28,3 +28,6 @@ Join the cluster - Change the ip of your master node. (copy the token and run it
 change the worker node labels by the command
 
 <img width="2512" height="354" alt="image" src="https://github.com/user-attachments/assets/282aaab8-9835-4c1f-9f33-ad368bc7a2f8" />
+
+Verify the cluster components
+kubectl get --raw='/readyz?verbose'
